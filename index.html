@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/components/navbar.css" />
+        <link rel="stylesheet" href="/components/footer.css" />
+        <link rel="stylesheet" href="/style.css" />
+        <script type="module" src="./scripts/index.js"></script>
+        <script
+            src="https://kit.fontawesome.com/9d6433328b.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>Snapdeal</title>
+    </head>
+    <body>
+        <!-- Top bar -->
+
+        <div id="top"></div>
+
+        <!-- navbar -->
+
+        <div id="header"></div>
+
+        <!-- main body -->
+
+        <div class="container">
+            <!-- sidebar -->
+            <div class="sidebar">
+                <ul class="top-category-menu category">
+                    <li class="top-category">TOP CATEGORIES</li>
+                </ul>
+                <ul class="more-categories-menu category">
+                    <li class="more-categories">MORE CATEGORIES</li>
+                    <li>Automotives</li>
+                    <li>Mobile & Accessories</li>
+                    <li>Electronics</li>
+                    <li>Sports, Fitness & Outdoors</li>
+                    <li>Computers & Gaming</li>
+                    <li>Books, Media & Music</li>
+                    <li>Hobbies</li>
+                </ul>
+                <div class="qr-code">
+                    <img
+                        src="http://unsplash.it/75/75/?gravity=center"
+                        alt=""
+                    />
+                    <div class="scan">
+                        <p>Enjoy Convenient Order Tracking</p>
+                        <p>Scan to download App</p>
+                    </div>
+                </div>
+            </div>
+            <div id="sidebar-popup"></div>
+
+            <!-- carousel -->
+            <div class="carousel">
+                <!-- image slider start -->
+                <div class="slider">
+                    <div class="slides">
+                        <!-- radio button start -->
+                        <input type="radio" name="radio-btn" id="radio1" />
+                        <input type="radio" name="radio-btn" id="radio2" />
+                        <input type="radio" name="radio-btn" id="radio3" />
+                        <input type="radio" name="radio-btn" id="radio4" />
+                        <!-- radio button end -->
+
+                        <!-- slide images start -->
+                        <div class="slide first">
+                            <img
+                                src="https://n1.sdlcdn.com/imgs/k/e/d/Breezy_Loungewear_Women_Web_22feb-a2c61.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="slide">
+                            <img
+                                src="https://n1.sdlcdn.com/imgs/k/e/d/Boys_Cotton_T_Shirts_Web_22feb-e273f.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="slide">
+                            <img
+                                src="https://n4.sdlcdn.com/imgs/j/t/8/Web1min-cbb30.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="slide">
+                            <img
+                                src="https://n2.sdlcdn.com/imgs/k/e/d/KItchen_Web_22feb-520a4.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <!-- slide images end -->
+
+                        <!-- auto slide start -->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                        <!-- auto slide end -->
+                    </div>
+
+                    <!-- manual slide start -->
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                    <!-- manual slide end -->
+                </div>
+                <!-- image slider end -->
+            </div>
+
+            <!-- trending products -->
+            <div class="trending">
+                <p>TRENDING PRODUCTS</p>
+                <div id="trend-p" class="trnd">
+                    <!-- <div class="box">
+                            <div class="slide-img">
+                                <img
+                                    src="https://images.unsplash.com/photo-1585189729593-ab5086ab2369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YWVzdGhldGljJTIwd2FsbHBhcGVyfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="detail-box">
+                                <p>
+                                    Bhawna Collection Loard Shiv Trishul Damru
+                                    Locket With Puchmukhi Rudraksha Mala
+                                    Gold-plated Brass, Wood For Men & Women
+                                </p>
+                                <div class="price-details">
+                                    <span class="orig-price">Rs999</span>
+                                    <span class="sale-price">Rs1400</span>
+                                    <span class="offer-price">86% OFF</span>
+                                </div>
+                            </div>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- more products -->
+        <div id="more-prod" class="more-products">
+            <!-- <div class="more">
+                <div class="more-img">
+                    <img
+                        src="https://images.unsplash.com/photo-1585189729593-ab5086ab2369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YWVzdGhldGljJTIwd2FsbHBhcGVyfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                    />
+                </div>
+                <div class="more-detail">
+                    <p class="name">
+                        Bhawna Collection Loard Shiv Trishul Damru Locket With
+                        Puchmukhi Rudraksha Mala Gold-plated Brass, Wood For Men
+                        & Women
+                    </p>
+                    <div class="price-details">
+                        <span class="orig-price">Rs999</span>
+                        <span class="sale-price">Rs1400</span>
+                        <span class="offer-price">86% OFF</span>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+        <!-- footer -->
+        <div id="footer"></div>
+    </body>
+</html>
+
+<script type="module">
+    import { top, navbar, footer } from "./components/navbar.js";
+    // appending top part
+    let top_part = document.querySelector("#top");
+    top_part.innerHTML = top();
+
+    // appending navbar part
+    let header = document.querySelector("#header");
+    header.innerHTML = navbar();
+
+    // appending footer part
+    let foot = document.querySelector("#footer");
+    foot.innerHTML = footer();
+
+    var user_click = document.querySelector(".user");
+
+    var user_list = document.querySelector(".ham");
+
+    user_list.style.display = "none";
+
+    user_click.addEventListener("click", function () {
+        if (user_list.style.display == "none") {
+            user_list.style.display = "block";
+        } else {
+            user_list.style.display = "none";
+        }
+    });
+
+    //**** CODE for products list ****
+
+    import getData from "./scripts/getData.js";
+
+    let url = `https://profound-donut-01ca79.netlify.app/ecom.json`;
+
+    let data = await getData(url);
+
+    import { category, appendSearch } from "./index.js";
+
+    let main = document.querySelector("#sidebar-popup");
+    category(data, main);
+    // let trenUrl="https://profound-donut-01ca79.netlify.app/trending.json"
+    // let trending = await getData(trenUrl)
+    // console.log(trending);
+    // let trendMain=document.querySelector(".trnd")
+    // console.log(trendMain);
+    import { asyncData, appending, appendD } from "./fetch.js";
+
+    let more_data = document.querySelector("#more-prod");
+    let trend_p = document.querySelector("#trend-p");
+
+    let res = await asyncData(
+        `https://profound-donut-01ca79.netlify.app/trending.json`
+    );
+
+    appending(res, more_data);
+    appendD(res, trend_p);
+</script>
+
+<script type="text/javascript">
+    let counter = 1;
+
+    setInterval(function () {
+        document.getElementById("radio" + counter).checked = true;
+        counter++;
+
+        if (counter > 4) {
+            counter = 1;
+        }
+    }, 5000);
+</script>
+
+<script src="./index.js"></script>
+
+<!-- <script src='/components/ham.js'></script> -->
