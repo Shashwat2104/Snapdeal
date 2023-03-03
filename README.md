@@ -14,7 +14,7 @@
 
 💻Unique Project Name & logo :- SnapDeal - All Your Baby Need's 
 
-![App Screenshot](https://imgur.com/DhYrsE1.png)
+
 ---
  💫Tech-Stack->
 For Frontend : HTML5, CSS3, Javascript, ES6.
